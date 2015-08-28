@@ -1,7 +1,0 @@
-AuthUserFile /var/www/html/www-team-lab/design/yamamotonodoka/webgl/.htpasswd
-AuthName "Input ID and Password."
-AuthType Basic
-require valid-user
-<Files ~ "^.(htpasswd|htaccess)$">
-    deny from all
-</Files>
